@@ -43,10 +43,10 @@ Listening on http://127.0.0.1:6789/kizuna <br />
 
 ### Python Client
 `cd PythonClient`<br />
-* for video <br \>
-`python3 vtuber_link_start.py <your-video-path>`<br \>
-* for camera <br \>
-`python3 vtuber_link_start.py`<br \>
+* for video <br />
+`python3 vtuber_link_start.py <your-video-path>`<br />
+* for camera <br />
+`python3 vtuber_link_start.py`<br />
 
 ## Face Detection
 
