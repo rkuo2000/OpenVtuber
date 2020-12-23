@@ -34,8 +34,7 @@ OpenVtuber: An application of real-time face and gaze analyzation via deep nerua
 * `cd ~/OpenVtuber/NodeServer`
 * `npm install express socket.io`
 * `yarn start`
-#### for Windows (install node.js)
-* Under Command window
+#### for Windows (run in Command window)
 * `cd OpenVtuber\NodeServer`
 * `npm install express socket.io`
 * `node index.js`
@@ -43,8 +42,10 @@ Listening on http://127.0.0.1:6789/kizuna
 
 ### Python Client
 * `cd PythonClient`
-* `python3 vtuber_link_start.py <your-video-path>` # for video
-* `python3 vtuber_link_start.py` # for camera
+#### for video
+* `python3 vtuber_link_start.py <your-video-path>`
+#### for camera
+* `python3 vtuber_link_start.py`
 
 ## Face Detection
 
