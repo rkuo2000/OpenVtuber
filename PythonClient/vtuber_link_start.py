@@ -10,7 +10,7 @@ import numpy as np
 from queue import Queue
 import socketio
 
-if sys.argv>1:
+if len(sys.argv)>1:
     cap = cv2.VideoCapture(sys.argv[1])
 else:
     cap = cv2.VideoCapture(0)
