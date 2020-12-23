@@ -10,7 +10,10 @@ import numpy as np
 from queue import Queue
 import socketio
 
-cap = cv2.VideoCapture(sys.argv[1])
+if sys.argv>1:
+    cap = cv2.VideoCapture(sys.argv[1])
+else:
+    cap = cv2.VideoCapture(0)
 
 fd = UltraLightFaceDetecion("pretrained/version-RFB-320_without_postprocessing.tflite",
                             conf_threshold=0.98)
