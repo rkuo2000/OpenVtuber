@@ -39,7 +39,7 @@ OpenVtuber: An application of real-time face and gaze analyzation via deep nerua
 `cd OpenVtuber\NodeServer`<br />
 `npm install express socket.io`<br />
 `node index.js`<br />
-Open a browser at http://127.0.0.1:6789/kizuna <br />
+* Open a browser at http://127.0.0.1:6789/kizuna <br />
 
 ### Python Client
 `cd PythonClient`<br />
