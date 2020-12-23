@@ -42,11 +42,11 @@ OpenVtuber: An application of real-time face and gaze analyzation via deep nerua
 * Open a browser at http://127.0.0.1:6789/kizuna <br />
 
 ### Python Client
-`cd PythonClient`<br />
-* for video <br />
-`python3 vtuber_link_start.py <your-video-path>`<br />
-* for camera <br />
-`python3 vtuber_link_start.py`<br />
+*`cd PythonClient`
+#### for video
+`python3 vtuber_link_start.py <your-video-path>`
+#### for camera
+`python3 vtuber_link_start.py`
 
 ## Face Detection
 
